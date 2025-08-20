@@ -11,20 +11,23 @@ learning Rust, and b) I wanted to understand in pratical terms
 "Vibe Coding".
 
 So after searching and reading a few articles on
- **"Vibe Coding"**.  I went to [Grok AI](https://x.ai), as I 
+"Vibe Coding".  I went to [Grok AI](https://x.ai), as I 
 previously used Grok for some specific application
  configuration.  I thought it did a fair job.
 
 <h2>Prompt</h2>
-The prompt I entered was
->I would like to generate a program to update
->my Epik.com domain IP address when it changes.
->I would like the program writting in Rust, using
->Epik.com APIs, using my API Key.  The program should
->run on Ubuntu 25.04 from the command line.  The program
->will be run on a scheduled basis using cron.
+
+The prompt I entered in Grok was
+
+> I would like to generate a program to updatei
+> my Epik.com domain IP address when it changes.
+> I would like the program writting in Rust, using
+> Epik.com APIs, using my API Key.  The program should
+> run on Ubuntu 25.04 from the command line.  The program
+> will be run on a scheduled basis using cron.
 
 <h2>Prompt Response </h2>
+
   To create a Rust program that updates the IP address of
  a domain registered with Epik.com using their API, we 
 need to consider the following:
