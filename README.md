@@ -1,6 +1,6 @@
 
 <h2>Motivation</h2>
-An internet search to understand "What is Vibe Coding?" was the motivation, for this personal project.
+An internet search to understand **\"What is Vibe Coding\?\"** was the motivation, for this personal project.
 
 My domain provider is [Epik](https://www.epik.com) and on
 occasion I had to login and update my domain IP address. 
