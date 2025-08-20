@@ -36,8 +36,8 @@ need to consider the following:
 The Epik API requires a valid signature and IP 
 whitelisting for authentication. The API supports
 DNS management, which includes updating the IP address of
-a domain. The documentation is available at  
-[Epik API Documentation](https://docs.userapi.epik.com/v2/).
+a domain. The documentation is available at 
+[Epik API Documentation](https://docs-userapi.epik.com/v2/).
 
 <h2>Rust Program</h2>
 The program will use the `reqwest` crate
