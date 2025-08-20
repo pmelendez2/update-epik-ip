@@ -22,7 +22,7 @@ The prompt I entered in Grok was
 > I would like to generate a program to updatei
 > my Epik.com domain IP address when it changes.
 > I would like the program writting in Rust, using
-> Epik.com APIs, using my API Key.  The program should
+> Epik.com APIs, using my Epik API Key.  The program should
 > run on Ubuntu 25.04 from the command line.  The program
 > will be run on a scheduled basis using cron.
 
@@ -36,13 +36,13 @@ need to consider the following:
 The Epik API requires a valid signature and IP 
 whitelisting for authentication. The API supports
 DNS management, which includes updating the IP address of
-a domain. The documentation is available at 
+a domain. The documentation is available at  
 [Epik API Documentation](https://docs.userapi.epik.com/v2/).
 
 <h2>Rust Program</h2>
-The program will use the reqwest crate
-for HTTP requests, serde for JSON serialization/deserialization,
-and tokio for async operations. It will fetch the current
+The program will use the `reqwest` crate
+for HTTP requests, `serde` for JSON serialization/deserialization,
+and `tokio` for async operations. It will fetch the current
 public IP and update the domain's A record via the Epik API.
 
 <h2>Ubuntu 25.04</h2>
@@ -61,7 +61,7 @@ their IP is whitelisted in the Epik account settings.
 Below is a Rust program that accomplishes this task. 
 The program assumes you have your Epik API key and domain
 details. It fetches the current public IP using a service
-like ipify.org and updates the domain's A record if the
+like [ipify.org](http://ipify.org) and updates the domain's A record if the
 IP has changed. The program stores the last known IP in a
 local file to avoid unnecessary API 
 calls.update_epik_ip.rs
